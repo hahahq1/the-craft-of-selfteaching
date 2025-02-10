@@ -1,0 +1,10 @@
+2025年2月10日
+1.Git hub使用三个区域概念
+    工作区（我电脑里能看到的目录）git add →缓存区（Stage或index索引）→git commit版本库
+2.同步本地修改的到我的github上
+    1-在我修改的文件夹里面右键git dash
+    2-git add
+    3-git commit
+    4-会提示要我们写本次修改的备注 不用夹#
+    5-git push，然后会让我们登陆 需要输入密码
+    6-完成
