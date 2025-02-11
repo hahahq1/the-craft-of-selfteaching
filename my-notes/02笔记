@@ -16,5 +16,9 @@
     git branch <new-branch>创建新分支
     git checkout 显示所有本地分支
     git checkout <branch/tag> 切换到指定分支或标签
+    git push --set-upstream origin study设置远程分支的关联
 
 5.用github记录自己的学习过程
+    这里提到的方法是创建一个和master并列的分支（branch）study在study里面修改保存。
+    git push只能推送到默认的分支里面，需要推送到指定分支的时候需要更换默认分支，
+    也就是git push --set-upstream origin <branch>
