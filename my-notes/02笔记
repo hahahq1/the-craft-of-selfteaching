@@ -1,6 +1,6 @@
 2025年2月10日
 1.Git hub使用三个区域概念
-    工作区（我电脑里能看到的目录）git add →缓存区（Stage或index索引）→git commit版本库
+    工作区（我电脑里能看到的目录）git add .→缓存区（Stage或index索引）→git commit版本库
 2.同步本地修改的到我的github上
     1-在我修改的文件夹里面右键git dash
     2-git add . 记得后面还有空格和一个点
@@ -8,4 +8,13 @@
     4-会提示要我们写本次修改的备注 不用夹#
     5-git push，然后会让我们登陆 需要输入密码
     6-完成
-3.显示不出来文字
+3.新建的笔记文件，上传之后无法显示？
+    会比较卡顿，需要等一段时间，但是上传了的东西还是会在的。稍安勿躁
+4.Git文章里面提到的指令
+    git add .将工作区的文件发送到缓冲区
+    git commit 将缓存区文件上传到版本库
+    git branch <new-branch>创建新分支
+    git checkout 显示所有本地分支
+    git checkout <branch/tag> 切换到指定分支或标签
+
+5.用github记录自己的学习过程
